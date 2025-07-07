@@ -5,7 +5,7 @@ Tags: Hide, Post, Page, Privacy, Content
 Requires PHP: 7.0
 Requires at least: 5.0
 Tested up to: 6.8
-Stable tag: 1.0.9
+Stable tag: 1.1.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Control the visibility of post type items like pages, posts and custom post type. Hidden in a specific part. But another part still visible.
@@ -93,6 +93,8 @@ Control the visibility of post type items like pages, posts and custom post type
 == Screenshots ==
 
 == Changelog ==
+1.1.0
+Fix (CSRF) vulnerability.
 1.0.9
 test upto version 6.8
 1.0.8

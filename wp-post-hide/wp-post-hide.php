@@ -1,27 +1,32 @@
 <?php
 /**
+ * This is main plugin file.
+ *
+ * @link              http://xfinitysoft.com/
+ * @since             0.0.1
+ * @package WordPress Hide Post
  * Plugin Name: WP Post Hide
  * Description: Control the visibility of post type items like pages and posts .Hidden in specific part.But other part still visible.
  * Plugin URI:http://www.xfinitysoft.com/wordpress-post-hide/
- * Version: 1.0.9
+ * Version: 1.1.0
  * Author:Xfinity Soft
  * Author URI:http://www.xfinitysoft.com/
  * Text Domain:xswpph-domain
  * Domain Path: /languages
  */
 
-// Exit if directly access
+// Exit if directly access.
 if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
 
 
-// Define  XSWPPH_PLUGIN_FILE
+// Define  XSWPPH_PLUGIN_FILE.
 if ( ! defined( 'XSWPPH_PLUGIN_FILE' ) ) {
 	define( 'XSWPPH_PLUGIN_FILE', __FILE__ );
 }
 
-// Includes main class of wphp
+// Includes main class of wphp.
 if ( ! class_exists( 'XSWPPH_Main' ) ) {
 	include_once __DIR__ . '/includes/classes/class-xswpph-main.php';
 }
