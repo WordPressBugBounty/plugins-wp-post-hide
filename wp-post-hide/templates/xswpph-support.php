@@ -21,16 +21,16 @@ function xswpph_support() {
             </a>
         </h1>
        <nav class="nav-tab-wrapper wp-clearfix" aria-label="Secondary menu">
-            <a class="nav-tab <?php  if($tab =='report' ){ echo 'nav-tab-active'; } ?>" href="?page=xswpph_support&tab=report" class="nav-tab">
+            <a class="nav-tab <?php  if( 'report' === $tab ){ echo 'nav-tab-active'; } ?>" href="?page=xswpph_support&tab=report" class="nav-tab">
                     <?php esc_html_e( 'Report a bug' , 'xswpph-domain' ); ?>
             </a>
-            <a class="nav-tab <?php  if($tab =='request' ){ echo 'nav-tab-active'; } ?>" href="?page=xswpph_support&tab=request" class="nav-tab">
+            <a class="nav-tab <?php  if( 'request' === $tab ){ echo 'nav-tab-active'; } ?>" href="?page=xswpph_support&tab=request" class="nav-tab">
                     <?php esc_html_e( 'Request a Feature' , 'xswpph-domain' ); ?>
             </a>
-            <a class="nav-tab <?php  if($tab =='hire' ){ echo 'nav-tab-active'; } ?>" href="?page=xswpph_support&tab=hire" class="nav-tab">
+            <a class="nav-tab <?php  if( 'hire' === $tab ){ echo 'nav-tab-active'; } ?>" href="?page=xswpph_support&tab=hire" class="nav-tab">
                     <?php esc_html_e( 'Hire US' , 'xswpph-domain' ); ?>
             </a>
-            <a class="nav-tab <?php  if($tab =='review' ){ echo 'nav-tab-active'; } ?>" href="?page=xswpph_support&tab=review" class="nav-tab">
+            <a class="nav-tab <?php  if( 'review' === $tab ){ echo 'nav-tab-active'; } ?>" href="?page=xswpph_support&tab=review" class="nav-tab">
                     <?php esc_html_e( 'Review' , 'xswpph-domain' ); ?>
             </a>
 

@@ -23,7 +23,7 @@ function xswpph_page() {
         
         <?php settings_errors(); ?>
         <nav class="nav-tab-wrapper wp-clearfix" aria-label="Secondary menu">
-	        <a class="nav-tab <?php  if($tab =='settings' ){ echo 'nav-tab-active'; } ?>" href="?page=xswpph_page&tab=settings" class="nav-tab">
+	        <a class="nav-tab <?php  if( 'settings' === $tab ){ echo 'nav-tab-active'; } ?>" href="?page=xswpph_page&tab=settings" class="nav-tab">
                     <?php esc_html_e( 'Settings' , 'xswpph-domain' ); ?>
             </a>
    		</nav>

@@ -6,9 +6,9 @@
  * @since             0.0.1
  * @package WordPress Hide Post
  * Plugin Name: WP Post Hide
- * Description: Control the visibility of post type items like pages and posts .Hidden in specific part.But other part still visible.
+ * Description: Control the visibility of post type items like pages, posts, and custom post types. Hidden in specific parts but other parts still visible.
  * Plugin URI:http://www.xfinitysoft.com/wordpress-post-hide/
- * Version: 1.1.0
+ * Version: 2.0.0
  * Author:Xfinity Soft
  * Author URI:http://www.xfinitysoft.com/
  * Text Domain:xswpph-domain
@@ -20,6 +20,26 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
 
+// Check if pro version is active and deactivate free version if it is.
+add_action(
+	'admin_init',
+	function () {
+		if ( is_plugin_active( 'xs-wordpress-hide-post/xs-wordpress-hide-post.php' ) ) {
+			deactivate_plugins( plugin_basename( __FILE__ ) );
+			add_action(
+				'admin_notices',
+				function () {
+					?>
+			<div class="notice notice-warning is-dismissible">
+					<p><?php esc_html_e( 'WP Post Hide (Free) has been deactivated because WP Post Hide Pro is already active.', 'xswpph-domain' ); ?></p>
+			</div>
+					<?php
+				}
+			);
+			return;
+		}
+	}
+);
 
 // Define  XSWPPH_PLUGIN_FILE.
 if ( ! defined( 'XSWPPH_PLUGIN_FILE' ) ) {
