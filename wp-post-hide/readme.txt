@@ -1,136 +1,141 @@
-=== WP Post Hide ===
+=== WP Hide Post — Hide Posts, Pages, Custom Post Types, and Control Products Visibility for WooCommerce ===
 Contributors: xfinitysoft
 Donate link: https://codecanyon.net/item/wordpress-hide-post/24141817
-Tags: Hide, Post, Page, Privacy, Content, WooCommerce, Widget, REST API, Visibility, Custom Post Types
-Requires PHP: 7.0
+Tags: hide post, hide page, hide product, content visibility, woocommerce
+Requires PHP: 7.4
 Requires at least: 5.0
-Tested up to: 6.8
-Stable tag: 2.0.0
+Tested up to: 6.9
+Stable tag: 2.0.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
-Advanced WordPress content visibility control. Hide posts, pages, and custom post types from specific areas while keeping them visible elsewhere. Perfect for content management and SEO.
 
+Want to hide WordPress posts, pages, custom post types, and WooCommerce products from the homepage, archives, search, RSS, and REST API? Check out WP Hide Post.
 == Description ==
 
-**WP Post Hide** is a powerful WordPress plugin that gives you granular control over where your content appears on your website. Hide posts, pages, attachments, and custom post types from specific locations like the homepage, category pages, search results, widgets, and more - while keeping them accessible via direct links.
+**Hide posts, pages, media, and WooCommerce products from homepage, categories, search results, RSS feed, widgets, and REST API — without deleting content and keeping them accessible via direct links.**
 
-**🚀 Perfect for:**
-- Content managers who need selective visibility
-- SEO professionals managing content strategy  
-- E-commerce stores with WooCommerce integration
-- Bloggers wanting to control post distribution
-- Developers needing REST API content filtering
+👉 [Try the Demo](https://posthide.xfinitysoft.app/) | [Documents](https://docs.xfinitysoft.app/plugins/wordpress-hide-post/) | [Pro Version](https://codecanyon.net/item/wordpress-hide-post/24141817) | [Facebook Page](https://www.facebook.com/xfinitysoft)
 
-[Try the Demo](https://posthide.xfinitysoft.app/ "Demo") | [Documents](https://docs.xfinitysoft.app/plugins/wordpress-hide-post/ "Documents") | [Pro Version](https://codecanyon.net/item/wordpress-hide-post/24141817 "Pro Version") | [Facebook Page](https://www.facebook.com/xfinitysoft)
+WP Hide Post gives you straightforward control over where your content appears on your WordPress site. Want a product to stay out of the shop page but still reachable by link? Need an article hidden from category and tag pages while editors can preview it?
+
+This plugin helps you **hide posts from the homepage, hide posts from category and tag pages, hide posts from search results, and even hide posts from RSS feed and REST API** — all without deleting the content.
+
+Perfect for content managers, store owners, and publishers who need flexible content visibility. Use it to hide WooCommerce products from shop and product search, hide custom post types from archive listings, or hide posts from widgets.
+
+Isn't that awesome! 😃 Keep reading, there's more. 👇
 
 [youtube https://www.youtube.com/watch?v=BRDTFBSvEE8]
 
-## 🎯 KEY FEATURES
+### Why choose WP Hide Post?
 
-### ✅ COMPREHENSIVE HIDING OPTIONS
-**Posts & Custom Post Types:**
-- 🏠 **Front Page**: Hide from homepage/front page
-- 📝 **Blog Page**: Hide from blog/posts page  
-- 📂 **Category Pages**: Hide from category listings
-- 🏷️ **Tag Pages**: Hide from tag archives
-- 👤 **Author Pages**: Hide from author archives
-- 📅 **Date Archives**: Hide from date-based archives
-- 🔍 **Search Results**: Hide from search pages
-- 📡 **RSS Feeds**: Hide from RSS/XML feeds
-- 🔗 **Navigation Links**: Hide from next/previous post links
-- 📱 **REST API**: Hide from WordPress REST API
-- 📄 **Single Post Pages**: Hide individual post content
+WP Hide Post is the simplest WordPress plugin to hide posts, pages, custom post types, and WooCommerce products without deleting them. Control where your content appears — on the homepage, category pages, search results, RSS feeds, widgets, or the REST API — while keeping direct links live for SEO and sharing.
 
-**Pages:**
-- 🏠 **Front Page**: Hide from homepage listings
-- 📝 **Blog Page**: Hide from blog page  
-- 📱 **REST API**: Hide from WordPress REST API
-- 📄 **Single Pages**: Hide individual page content
+### 🔑 Key Benefits
+* **Hide Posts Without Deleting**: Quickly hide posts from the homepage, categories, tags, or search results while keeping them accessible by direct link.
+* **WooCommerce Product Visibility**: Hide WooCommerce products from the shop page, product categories, or search without removing the product page itself.
+* **REST API Control**: Manage REST API access control to keep sensitive content out of WordPress or WooCommerce endpoints.
+* **Media & Attachments**: Hide attachments and media from search, feeds, and widgets without deleting files.
 
-**Attachments (Media):**
-- 🏠 **Front Page**: Hide from homepage
-- 📝 **Blog Page**: Hide from blog listings
-- 📂 **Category Pages**: Hide from category pages
-- 🏷️ **Tag Pages**: Hide from tag pages
-- 👤 **Author Pages**: Hide from author pages
-- 📅 **Date Archives**: Hide from date archives
-- 🔍 **Search Results**: Hide from search
-- 📡 **RSS Feeds**: Hide from feeds
-- 🔗 **Navigation Links**: Hide from rel links
-- 📱 **REST API**: Hide from REST API
+### 🔑 Key Features for Hiding WordPress Posts and WooCommerce Products
 
-### 🛒 WOOCOMMERCE INTEGRATION
-- 🛍️ **Shop Page**: Hide products from WooCommerce shop page
-- 📂 **Product Categories**: Hide from product category pages
-- 🔍 **Product Search**: Hide from WooCommerce search results
-- 📱 **WooCommerce REST API**: Hide from WC REST endpoints
+= 📌 Content Visibility Controls =
 
-### 🔧 ADVANCED FEATURES
-- ⚡ **Performance Optimized**: Custom database tables with caching
-- 📊 **Admin Column**: See hiding status at a glance in post lists
-- 🔄 **Data Migration**: Seamless upgrade from meta-based storage
-- 🎛️ **Widget Integration**: Hide from recent posts widgets
-- ⚙️ **Settings Control**: Enable/disable column visibility
-- 🔌 **Auto-Deactivation**: Prevents conflicts with pro version
+Take full control of how your posts, pages, media, and custom post types appear across your site:
 
-### 💡 HOW IT WORKS
-1. **Select Post Types**: Choose which content types to enable hiding for
-2. **Edit Content**: Use the "Post Visibility" metabox when editing
-3. **Choose Locations**: Select where to hide each piece of content
-4. **Save & Done**: Content remains accessible via direct links
+* **Hide posts from the homepage** or blog page without deleting them.
+* **Hide posts from category pages** and tag archives to refine navigation.
+* **Hide posts from author pages** and date archives for cleaner browsing.
+* **Hide posts from search results** to prevent duplicate or outdated content from showing.
+* **Hide posts from RSS feed** and XML feeds.
+* **Hide posts from the REST API** to secure sensitive content.
+* **Hide posts from widgets** such as “Recent Posts.”
+* **Hide navigation links** (next/previous rel links).
+* **Hide single post pages** when you need them to be private.
 
-### 🆚 FREE vs PRO COMPARISON
+= 🖼 Media & Attachments Visibility =
 
-**✅ FREE VERSION INCLUDES:**
-- All hiding locations listed above
-- WooCommerce integration  
-- REST API filtering
-- Custom database optimization
-- Admin visibility column
-- Widget integration
-- Attachment support
-- Multi-post type support
+Control how your images, PDFs, and other media files are displayed:
 
-**🚀 PRO VERSION ADDS:**
-- 🔗 404 Redirect functionality
-- 🔍 Hide but keep in search results
-- 🌍 Hide everywhere (always hidden)
-- ⚡ Quick edit functionality  
-- 📋 Bulk edit operations
-- 🎫 Premium support & updates
+* **Hide media from the** homepage, blog page, and archive pages.
+* **Hide media from** tag, author, and date archives.
+* **Hide media from** search results and feeds.
+* **Hide media from the** REST API to limit external access.
+* **View hidden media** in the Media list with a status column.
 
-###MAY BE YOU NEED
+= 📄 Page-Level Visibility =
 
-[WooCommerce Sales Notifications](https://wordpress.org/plugins/wc-live-sale-notifications/):Live Sale Notification For Woocommerce is the best WooCommerce plugin to boost your sales. This plugin allows you to display recent orders on a popup with customer and product information.
-[WooCommerce Spin Popup](https://wordpress.org/plugins/wc-spin-to-win-wheel/):WooCommerce Spin Popup helps shop owners to increase Sales and Leads. Spin Wheel for WooCommerce helps you to collect email of users by giving them discount which is completely controlled by you.
-[WP Post Redirection - 301, 404 Redirects](https://wordpress.org/plugins/advance-wp-redirect/):Redirect Pages, Posts or Custom Post Types to another location quickly (for internal or external URLs). Includes individual non-existant 301 Redirects , New Window functionality, and rel=nofollow functionality.
-[Review for Discount for WooCommerce ](https://wordpress.org/plugins/review-for-discount/):WooCommerce Reviews for Discount plugin allows you to offer discounts to your customers for their reviews and recommendations. A positive review is a most powerful tool to drive repeat purchases, up-sells, and new sales.
-[Woocommerce Currency Converter](https://wordpress.org/plugins/wc-multi-currency-switcher/):Woocommerce Currency Converter is the WooCommerce Multi Currency plugin that allows your site visitors to switch products prices currencies according to set currencies rates in real-time.
-[Woocommerce Checkout Upsell Order Bump](https://wordpress.org/plugins/wc-upsell-and-order-bump/):Woocommerce Checkout Upsell Order Bump is a WooCommerce plugin that offers product suggestions and order bumps with tempting discounts to the customers on the checkout page.
+Manage visibility for WordPress pages with precision:
 
-###Premium Plugins link
-[EasyMail- WooCommerce Email Template Customizer](https://codecanyon.net/item/easymail-woocommerce-email-template-customizer/36924704):Your transactional emails don’t have to be so bland anymore. EasyMail Email Template Customizer for WooCommerce allows you to customize your transactional email templates and create beautiful, professional looking emails that keep customers impressed – even post-purchase.
-[WooCommerce Category Merger](https://codecanyon.net/item/woocommerce-category-merger/35504276):WooCommerce Category Merger is a WooCommerce plugin that merge multiple terms (woocommerce categories,woocommerce tags,) into one term (woocommerce category,woocommerce tag).
-[WooCommerce Hide Product](https://codecanyon.net/item/woocommerce-hide-product/35504238):WooCommerce Hide Product allows you to hide a specific product from your website homepage, category, or search result page while still allowing others to view it if they have the direct link.
-[WebPio - WordPress WebP Converter](https://codecanyon.net/item/webpio-wordpress-webp-converter/33816880):WebPio – WordPress WebP Converter plugin allows you to convert JPEG and PNG images to WebP Format without losing image quality.
-[Revio - WooCommerce Reviews for Discount](https://codecanyon.net/item/woocommerce-reviews-for-discount/33142777):WooCommerce Reviews for Discount plugin allows you to offer discounts to your customers for their reviews and recommendations. A positive review is a most powerful tool to drive repeat purchases, up-sells, and new sales.
-[Live Sales Notification](https://codecanyon.net/item/notifications-for-woocommerce/32439454):WooCommerce Recent Sales Popup is a Live Sales Popup plugin that increases sales and show social proof to customers that your site is busy and trustworthy.
-[WooCommerce Catalog Mode](https://codecanyon.net/item/woocommerce-catalog-mode/31687319):WooCommerce Catalog Mode allows you to turn your Shop into a Catalog Mode, by hiding price or Add to cart button on product pages and replace it with inquiry form.
-[Contact Form 7 Verification](https://codecanyon.net/item/contact-form-7-verification/31513693):is the best wordpress plugin for providing email and mobile number verification for all CF7 forms.
-[Free shipping bar for WooCommerce](https://codecanyon.net/item/free-shipping-bar-for-woocommerce/31489731):is the best WooCommerce plugin that increases order revenue using free shipping as a marketing tool.
-[WordPress Coupon and Voucher Creator](https://codecanyon.net/item/wordpress-voucher-creator/25930233):is the best plugin for providing coupons and gift vouchers to your site visitors. People are always seeking ways to spend wisely. Most customers look for a coupon before visiting a retailer because everyone wants to save money. This plugin provides the opportunity of saving a few bucks that leads to more sales for your online business.
-[WordPress Post Hide](https://codecanyon.net/item/wordpress-hide-post/24141817):Control the visibility of post type items like pages, posts and custom post type. Hidden in specific part. But other part still visible.
-[WordPress Category Merger](https://codecanyon.net/item/merge-multiple-categories-or-tags-in-wordpress-and-woocommerce-term-management-tool/23647126):is a WordPress plugin that merge multiple terms (categories, tags, custom categories, custom tags) into one term (category, tag, custom category, custom tag).
-[WooCommerce Lucky Wheel](https://codecanyon.net/item/spinio-fortune-wheel-for-woocommcer-lead-booster/22175475): helps shop owners to increase Sales and Leads. Spin Wheel for WooCommerce helps you to collect email of users by giving them discount which is completely controlled by you.
-[WooCommerce Product Duplicator](https://codecanyon.net/item/woocommerce-advanced-product-duplicator/22147932):Most of the time Store manager or WooCommerce Admin needs to create a Product which is slightly different than existing Product.
-[WordPress Page Duplicator](https://codecanyon.net/item/smart-page-duplicator-duplicate-contents-through-find-and-replace/22075205):duplicate selected page/post with find and replace functionality.
-[WooCommerce Wishlist](https://codecanyon.net/item/woocommerce-wishlist-add-to-favourites/21663394):is a SIMPLE and MUST have plugin to let your customers list down their Favourite Products. It will boost up your sales and Conversions as well as site traffic because of Social Sharing Module.
-[WooCommerce Custom Order Number](https://codecanyon.net/item/woocommerce-sequential-and-friendly-order-number/21137939):A Common problem of all WooCommerce store is the random order numbers. Random order numbers are NOT easy to remember if you are in hurry and searching for one order out of thousand. Also this does not seem to be an order number of my store.
-[Seo Image Optimizer for WordPress and WooCommerce](https://codecanyon.net/item/wp-seo-image-optimizer/21004246):is a SIMPLE and MUST have plugin to Gain more traffic and sales From Search Engine Like GOOGLE , YAHOO , BING Image Search!. It Dramatically increase Traffic of your WordPress Website , Blog and Woocommerce Store
+* **Hide pages** from homepage listings.
+* **Hide pages** from the REST API.
+* **Hide single pages** when not intended for public access.
 
-### Documentation
+= 🛒 WooCommerce Product Visibility = 
 
-&#9658; [Getting Started](https://docs.xfinitysoft.app/plugins/wordpress-hide-post/)
+Powerful WooCommerce integration for shop owners:
+
+* **Hide WooCommerce products** from the shop page.
+* **Hide products from** product category pages.
+* **Hide products from** WooCommerce search results.
+* **Hide WooCommerce products** in REST API endpoints.
+* **View hidden product** status directly in the Products list.
+
+= ⚙️ Advanced Management Tools =
+
+Optimize workflows and keep your site running smoothly:
+
+* **Performance-optimized storage** using custom database tables with caching.
+* **Admin column for quick visibility status** in post, page, media, and product lists.
+* **Widget integration** to hide content from recent posts and sidebars.
+* **Quick edit functionality [Pro]:** Toggle visibility directly from list screens.
+* **Bulk edit operations [Pro]:** Update multiple posts, pages, or products at once.
+* **404 Redirect option [Pro]**: For posts, pages, custom post types, media, and WooCommerce products.
+* **Hide but keep in search results [Pro]:** Hide from listings while allowing search engines to index.
+* **Hide Everywhere [Pro]:** Completely remove content visibility across the entire site.
+* **Disable Hidden Column in admin lists [Pro]:** Customize your admin screen view.
+
+### Use Cases for Hiding Posts, Pages, and WooCommerce Products
+
+Hiding posts, pages, and WooCommerce products isn’t just about removing content — it’s about controlling visibility and managing how users and search engines interact with your site. Here are the most common scenarios:
+
+* **🎯 Content Staging & Previews:** Hide posts from homepage or category pages while keeping direct links live for editors, clients, or testers.
+* **🛍️ Seasonal Product Control:** Hide WooCommerce products from the shop page and product categories during off-season, but keep them accessible for SEO or promotions.
+* **🔒 Membership Content Restriction:** Hide posts from search results or archives and reveal them only to logged-in members or specific audiences.
+* **📂 Content Cleanup:** Hide outdated posts from RSS feed and author pages without deleting them, keeping your site fresh for visitors.
+* **🔧 Developer & API Control:** Hide custom post types or products from REST API endpoints to limit what data is exposed to external apps.
+* **📰 Media & Attachment Privacy:** Hide media files from widgets, search results, or tag pages to prevent clutter and maintain secure WordPress content management.
+
+### How the Plugin Works [A Brief Guide]
+
+Quick, four-step workflow to **hide posts, pages, media, and WooCommerce products** from lists while keeping direct links live.
+
+1. **Select Post Types** — Pick which content types get visibility controls (Posts, Pages, Media, Products, custom post types). This lets you hide custom post types and hide WooCommerce products when needed.
+2. **Edit Content** — Open the item and use the **Post Visibility** metabox. From here, you can toggle visibility options without deleting the content.
+3. **Choose Locations** — Check where to hide it: Front Page / Blog Page, Category, Tag, Author, Date Archives, Search Results, RSS Feed, Widgets (e.g., Recent Posts), REST API, or Single Page. Use combinations like hide posts from homepage and hide posts from search results as required.
+4. **Save & Done** — Update the item. The URL stays live for direct access, but the item will be hidden from the selected listings (shop, archives, widgets, REST API, etc.).
+
+**Pro tip:** Upgrade for **Quick Edit** and **Bulk Edit [Pro]**, **Hide Everywhere [Pro]**, or **404 Redirect [Pro]** to manage visibility at scale.
+
+### 🆚 Free vs Pro: A Quick Comparison
+
+= Free Version Includes: =
+✔ Hide posts from the homepage, blog page, categories, tags, author pages, and date archives.
+✔ Hide posts from search results, RSS feed, widgets, navigation links, and REST API.
+✔ Hide single posts, pages, media, and WooCommerce products without deleting them.
+✔ WooCommerce support — hide products from the shop page, product categories, and product search.
+✔ Hide attachments and media from the homepage, archives, search results, and feeds.
+✔ Custom database tables with caching for performance optimization.
+✔ "Hidden" status column in admin lists (Posts, Pages, Media, Products).
+✔ Widget integration for Recent Posts and other lists.
+
+= Pro Version Unlocks (everything in Free, plus): =
+✅ **Quick Edit [Pro]:** Toggle visibility instantly from list screens.
+✅ **Bulk Edit [Pro]:** Manage multiple posts, pages, media, or products at once.
+✅ **404 Redirect [Pro]**: Redirect hidden content to a 404 page (posts in Free, all types in Pro).
+✅ **Hide but keep in search results [Pro]**: Hide from listings but allow indexing for SEO.
+✅ **Hide Everywhere [Pro]**: Completely remove content from all site locations.
+✅ **Disable Hidden Column [Pro]**: Customize your WordPress admin view.
+✅ **Premium support & updates [Pro]**
 
 ### Plugin Links
 
@@ -138,54 +143,111 @@ Advanced WordPress content visibility control. Hide posts, pages, and custom pos
 &#9658; [Documentation](https://docs.xfinitysoft.app/plugins/wordpress-hide-post/)
 &#9658; [Report Bugs/Issues](https://xfinitysoft.com/contact-us/)
 
-== Installation ==
-
-1. Unzip the download package
-1. Upload `WP Post Hide` to the `/wp-content/plugins/` directory
-1. Activate the plugin through the 'Plugins' menu in WordPress
-
 == Frequently Asked Questions ==
+= Can I hide posts from the WordPress homepage without deleting them? =
+Yes. WP Hide Post lets you hide posts from the homepage or blog page while keeping the direct URL active.
 
-= What's new in version 2.0.0? =
-Version 2.0.0 is a complete rewrite with massive feature additions including WooCommerce integration, custom database tables, REST API filtering, and many new hiding locations. See the full changelog for details.
+= How do I hide posts from category pages in WordPress? =
+When editing a post, use the Post Visibility metabox and select “Hide from category pages.” This removes it from category listings.
 
-= Will my existing settings be preserved when I update? =
-Yes! The plugin includes automatic data migration from the old post meta system to the new optimized database tables. Your existing hiding configurations will be preserved.
+= Does this plugin work with WooCommerce?
+Yes. WP Hide Post fully supports WooCommerce. You can hide WooCommerce products from the shop page, product categories, product search, and WooCommerce REST API, while keeping product pages accessible by direct link.
 
-= Does this work with WooCommerce? =
-Absolutely! Version 2.0.0 includes full WooCommerce integration. You can hide products from the shop page, product categories, and WooCommerce search results.
-
-= Can I hide posts from widgets? =
-Yes! The plugin now properly hides posts from recent posts widgets, including the default WordPress Recent Posts widget and most third-party recent posts widgets.
-
-= What's the difference between this and the pro version? =
-The free version includes comprehensive hiding options for all post types. The pro version adds 404 redirects, "hide everywhere" functionality, "hide but keep in search", quick/bulk editing, and premium support.
-
-= Does this affect SEO or search engines? =
-Posts hidden with this plugin remain accessible via direct URLs and are not removed from sitemaps. This is different from completely deleting content - it just controls where the content appears on your site.
+= Will this plugin slow down my website?
+No. WP Hide Post uses custom database tables with caching, so it’s lightweight and won’t slow down your WordPress site.
 
 = How do I see which posts are hidden? =
-Version 2.0.0 includes a "Hidden" column in your admin post lists that shows exactly where each post is hidden from (e.g., "Front Page, Search, Feeds").
+The latest version adds a **“Hidden” column** in your admin post, page, media, and product lists, showing exactly where each item is hidden (e.g., Front Page, Search, Feeds).
 
-= Can I hide custom post types? =
-Yes! The plugin supports all public custom post types. Just enable the post type in the plugin settings and you'll see the hiding options in the post editor.
+= Is it possible to hide posts from WordPress search results? = 
+Absolutely. You can hide posts from search results so they don’t appear in site searches but remain accessible by direct link.
 
-= Will this slow down my website? =
-No! Version 2.0.0 uses custom database tables with proper indexing and advanced caching, making it faster than the previous meta-based system.
+= Can I hide posts from tag pages and author archives? =
+Yes. The plugin includes options to hide posts from tag pages and hide posts from author pages for better content control.
 
-= Does it work with page builders? =
-Yes! The plugin works with any theme or page builder since it operates at the WordPress query level, not the display level.
+= Does WP Hide Post work with WooCommerce products? =
+Yes. You can hide WooCommerce products from the shop page, product categories, product search, and REST API while keeping product URLs live.
 
-= Can I bulk edit hiding settings? =
-Bulk editing is available only in the pro version. The free version allows individual post editing through the metabox.
+= Can I hide custom post types with this plugin? =
+Yes. WP Hide Post supports hiding custom post types, including media, pages, products, or any post type you enable.
 
-= What happens if I activate the pro version? =
-The free version will automatically deactivate to prevent conflicts. Your settings and data will be preserved for the pro version to use.
+= How do I hide media attachments like images or PDFs? =
+Go to the Media Library, open an attachment, and choose where to hide it — homepage, archives, search, feeds, or REST API.
+
+= Will hiding posts affect my SEO rankings? =
+No. Hiding posts removes them from lists like the homepage or archives, but does not delete the URL. Search engines can still index the direct link unless you redirect it.
+
+= Can I redirect hidden posts to a 404 page? =
+Yes. The plugin offers a 404 Redirect option. Posts include this in Free, while media, pages, and products have it in Pro.
+
+= Does the plugin let me hide content from widgets like “Recent Posts”? =
+Yes. WP Hide Post can hide posts from widgets, such as Recent Posts, allowing you to control what content is promoted.
+
+= Can I hide navigation links like next and previous posts? =
+Yes. You can remove hidden posts from **next/previous rel links** to stop users from navigating into them.
+
+= Is there a way to bulk hide posts and products? =
+Yes. With the Pro version, you can use Bulk Edit to update multiple posts, pages, media, or WooCommerce products at once.
+
+= Can I quickly toggle visibility from the post list screen? =
+Yes. Pro users get **Quick Edit functionality** to manage visibility without opening the full post editor.
+
+= Can I hide content everywhere on my WordPress site? =
+Yes. The Pro version adds Hide Everywhere, which completely removes a post, page, media, or product from all listings.
+
+= How do I hide posts from the WordPress REST API? =
+Simply check “Hide from REST API” in the Post Visibility metabox. This provides full REST API access control.
+
+= Does the plugin support role-based content restriction? =
+No, this plugin focuses on hiding posts by location (homepage, categories, search, feeds, REST API). Role-based access requires a different plugin.
+
+= Can I hide posts but still keep them in search engines? =
+Yes. The Pro option “Hide but keep in search results” lets you hide from listings while still allowing indexing.
+
+= Will this plugin slow down my WordPress site? =
+No. WP Hide Post uses custom database tables with caching for performance. It’s designed to scale for large blogs and WooCommerce stores.
+
+= Can I see which posts or products are hidden? =
+Yes. The plugin adds a Hidden column in admin post, page, media, and product lists to show their visibility status.
+
+= Does WP Hide Post work with page builders like Elementor or Divi? =
+Yes. WP Hide Post works at the WordPress visibility level, so it integrates smoothly with themes and page builders.
+
+= What’s the difference between this and the Pro version? =
+The free version lets you hide posts, pages, media, and WooCommerce products from the homepage, categories, tags, search results, RSS feed, widgets, navigation links, and REST API.
+The Pro version adds advanced tools like Quick Edit, Bulk Edit, 404 Redirect for all content types, Hide but keep in search results, Hide Everywhere, and options to disable the Hidden column — plus premium support and updates.
+
+== Installation ==
+	
+= Installation Requirements =
+
+To use WP Hide Post, make sure your WordPress site meets these requirements:
+
+* WordPress **5.0 or higher**
+* PHP **7.0 or higher**
+* WooCommerce **5.0 or higher** (only if you want to hide WooCommerce products or categories)
+
+= How to Install WP Hide Post =
+
+Follow these simple steps to install the plugin:
+1. Log in to your **WordPress dashboard**.
+2. Go to **Plugins → Add New**.
+3. Search for **“WP Hide Post.”**
+4. Find WP Hide Post by **XfinitySoft** and click **Install Now**.
+5. Once installed, click **Activate**.
+6. Open any post, page, media item, or WooCommerce product — you’ll see the **Post Visibility** metabox.
+7. Check the boxes for where you want to hide the content (e.g., homepage, category pages, search results, feeds, REST API).
+
+No coding required — just a few clicks to hide posts from the homepage, hide WooCommerce products, or control content visibility anywhere on your site.
 
 == Screenshots ==
 
 == Changelog ==
-
+= 2.0.2 -2025-12-10 =
+Fix text domain issue.
+Add support wordpress version 6.9
+= 2.0.1 -2025-11-13 =
+Fix All bug and issue.
 = 2.0.0 - 2025-01-15 =
 **🎉 MAJOR RELEASE - Complete Feature Overhaul**
 

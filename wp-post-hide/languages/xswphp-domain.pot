@@ -1,0 +1,325 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR xfinitysoft
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: wordpress hide post\n"
+"POT-Creation-Date: 2022-12-29 15:44+0500\n"
+"PO-Revision-Date: 2019-07-16 09:56+0500\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; plural=(n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5);\n"
+"X-Generator: Poedit 3.2.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;esc_html__;esc_html_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: includes/classes/class-xswphp-init.php:31
+#: includes/classes/class-xswphp-init.php:32
+#: includes/classes/class-xswphp-init.php:49
+#: includes/classes/class-xswphp-init.php:50 templates/xswphp-page.php:15
+#: templates/xswphp-support.php:12
+msgid "Wordpress Hide Post"
+msgstr ""
+
+#: includes/classes/class-xswphp-init.php:41
+#: includes/classes/class-xswphp-init.php:42
+msgid "Support"
+msgstr ""
+
+#: includes/classes/class-xswphp-init.php:125
+msgid "Post Visibility"
+msgstr ""
+
+#: templates/views/xswphp-filter.php:25 templates/views/xswphp-filter.php:31
+#: templates/views/xswphp-filter.php:37 templates/views/xswphp-filter.php:43
+#: templates/views/xswphp-filter.php:49 templates/views/xswphp-filter.php:55
+#: templates/views/xswphp-filter.php:61 templates/views/xswphp-filter.php:67
+#: templates/views/xswphp-filter.php:73 templates/views/xswphp-filter.php:79
+#: templates/views/xswphp-filter.php:87 templates/views/xswphp-filter.php:93
+#: templates/views/xswphp-filter.php:99
+msgid "selected"
+msgstr ""
+
+#: templates/views/xswphp-filter.php:27
+msgid "All Hidden"
+msgstr ""
+
+#: templates/views/xswphp-filter.php:33 templates/views/xswphp-filter.php:89
+msgid "Front Page"
+msgstr ""
+
+#: templates/views/xswphp-filter.php:39
+msgid "Category Pages"
+msgstr ""
+
+#: templates/views/xswphp-filter.php:45
+msgid "Tag Pages"
+msgstr ""
+
+#: templates/views/xswphp-filter.php:51
+msgid "Author Pages"
+msgstr ""
+
+#: templates/views/xswphp-filter.php:57
+msgid "Date Archive"
+msgstr ""
+
+#: templates/views/xswphp-filter.php:63
+msgid "Search Results"
+msgstr ""
+
+#: templates/views/xswphp-filter.php:69
+msgid "Feeds"
+msgstr ""
+
+#: templates/views/xswphp-filter.php:75
+msgid "Recent Post"
+msgstr ""
+
+#: templates/views/xswphp-filter.php:81
+msgid "Meta rel link"
+msgstr ""
+
+#: templates/views/xswphp-filter.php:87 templates/views/xswphp-filter.php:101
+#: templates/views/xswphp-metaboxes.php:214
+#: templates/views/xswphp-quickedit.php:259
+msgid "Hide but keep in Search"
+msgstr ""
+
+#: templates/views/xswphp-filter.php:95
+msgid "Hide form pages list everywhere"
+msgstr ""
+
+#: templates/views/xswphp-metaboxes.php:34
+#: templates/views/xswphp-metaboxes.php:40
+#: templates/views/xswphp-metaboxes.php:48
+#: templates/views/xswphp-metaboxes.php:60
+#: templates/views/xswphp-metaboxes.php:72
+#: templates/views/xswphp-metaboxes.php:84
+#: templates/views/xswphp-metaboxes.php:96
+#: templates/views/xswphp-metaboxes.php:108
+#: templates/views/xswphp-metaboxes.php:120
+#: templates/views/xswphp-metaboxes.php:132
+#: templates/views/xswphp-metaboxes.php:144
+#: templates/views/xswphp-metaboxes.php:182
+#: templates/views/xswphp-metaboxes.php:187
+#: templates/views/xswphp-metaboxes.php:194
+#: templates/views/xswphp-metaboxes.php:202
+#: templates/views/xswphp-metaboxes.php:210
+msgid "Checked"
+msgstr ""
+
+#: templates/views/xswphp-metaboxes.php:36
+#: templates/views/xswphp-metaboxes.php:184
+#: templates/views/xswphp-quickedit.php:59
+#: templates/views/xswphp-quickedit.php:220 templates/xswphp-page.php:35
+msgid "All Check/Uncheck"
+msgstr ""
+
+#: templates/views/xswphp-metaboxes.php:42
+#: templates/views/xswphp-metaboxes.php:191
+#: templates/views/xswphp-quickedit.php:65
+#: templates/views/xswphp-quickedit.php:226
+msgid "Redirect 404 page"
+msgstr ""
+
+#: templates/views/xswphp-metaboxes.php:52
+#: templates/views/xswphp-quickedit.php:74
+msgid "Hide from Front Page"
+msgstr ""
+
+#: templates/views/xswphp-metaboxes.php:64
+#: templates/views/xswphp-quickedit.php:86
+msgid "Hide from Category Pages"
+msgstr ""
+
+#: templates/views/xswphp-metaboxes.php:76
+#: templates/views/xswphp-quickedit.php:98
+msgid "Hide from Tag Pages"
+msgstr ""
+
+#: templates/views/xswphp-metaboxes.php:88
+#: templates/views/xswphp-quickedit.php:110
+msgid "Hide from Author Pages"
+msgstr ""
+
+#: templates/views/xswphp-metaboxes.php:100
+#: templates/views/xswphp-quickedit.php:122
+msgid "Hide from Date Archive Pages"
+msgstr ""
+
+#: templates/views/xswphp-metaboxes.php:112
+#: templates/views/xswphp-quickedit.php:134
+msgid "Hide from Search Pages"
+msgstr ""
+
+#: templates/views/xswphp-metaboxes.php:124
+#: templates/views/xswphp-quickedit.php:146
+msgid "Hide from Feeds"
+msgstr ""
+
+#: templates/views/xswphp-metaboxes.php:136
+#: templates/views/xswphp-quickedit.php:158
+msgid "Hide from Recent Post"
+msgstr ""
+
+#: templates/views/xswphp-metaboxes.php:148
+#: templates/views/xswphp-quickedit.php:170
+msgid "Hide from Next and pervious rel link"
+msgstr ""
+
+#: templates/views/xswphp-metaboxes.php:198
+#: templates/views/xswphp-quickedit.php:235
+msgid "Hide from listing of pages in Front Page"
+msgstr ""
+
+#: templates/views/xswphp-metaboxes.php:206
+#: templates/views/xswphp-quickedit.php:247
+msgid "Hide form pages list everywhere"
+msgstr ""
+
+#: templates/views/xswphp-quickedit.php:47
+#: templates/views/xswphp-quickedit.php:210
+msgid "visibility"
+msgstr ""
+
+#: templates/views/xswphp-quickedit.php:210
+msgid " "
+msgstr ""
+
+#: templates/xswphp-license.php:11
+msgid "1"
+msgstr ""
+
+#: templates/xswphp-license.php:12
+msgid "Download"
+msgstr ""
+
+#: templates/xswphp-license.php:15
+msgid "2"
+msgstr ""
+
+#: templates/xswphp-license.php:16
+msgid "Install"
+msgstr ""
+
+#: templates/xswphp-license.php:19
+msgid "3"
+msgstr ""
+
+#: templates/xswphp-license.php:20
+msgid "Premium"
+msgstr ""
+
+#: templates/xswphp-license.php:24
+msgid "Enter Code for verification"
+msgstr ""
+
+#: templates/xswphp-license.php:25
+msgid ""
+"Thank you for choosing XfinitySoft - Wordpress Hide Post for Your Online "
+"Store"
+msgstr ""
+
+#: templates/xswphp-license.php:50 templates/xswphp-support.php:39
+#: templates/xswphp-support.php:84 templates/xswphp-support.php:129
+msgid "Dismiss this notice."
+msgstr ""
+
+#: templates/xswphp-license.php:61
+msgid "Are you sure you want to delete?"
+msgstr ""
+
+#: templates/xswphp-license.php:67
+msgid "Note:This will delete license access for this site"
+msgstr ""
+
+#: templates/xswphp-license.php:70
+msgid "No"
+msgstr ""
+
+#: templates/xswphp-license.php:71
+msgid "Yes"
+msgstr ""
+
+#: templates/xswphp-page.php:19
+msgid "Settings"
+msgstr ""
+
+#: templates/xswphp-page.php:30
+msgid "Please Check the Post Types you include this functonality"
+msgstr ""
+
+#: templates/xswphp-page.php:52
+msgid "Enable for Quick Edit"
+msgstr ""
+
+#: templates/xswphp-page.php:59
+msgid "Enable for Bulk Edit"
+msgstr ""
+
+#: templates/xswphp-support.php:17
+msgid "License"
+msgstr ""
+
+#: templates/xswphp-support.php:20
+msgid "Report a bug"
+msgstr ""
+
+#: templates/xswphp-support.php:23
+msgid "Request a Feature"
+msgstr ""
+
+#: templates/xswphp-support.php:26
+msgid "Hire US"
+msgstr ""
+
+#: templates/xswphp-support.php:29
+msgid "Review"
+msgstr ""
+
+#: templates/xswphp-support.php:47 templates/xswphp-support.php:92
+#: templates/xswphp-support.php:137
+msgid "Your Name:"
+msgstr ""
+
+#: templates/xswphp-support.php:55 templates/xswphp-support.php:100
+#: templates/xswphp-support.php:145
+msgid "Your Email:"
+msgstr ""
+
+#: templates/xswphp-support.php:63 templates/xswphp-support.php:108
+#: templates/xswphp-support.php:153
+msgid "Message:"
+msgstr ""
+
+#: templates/xswphp-support.php:72 templates/xswphp-support.php:117
+#: templates/xswphp-support.php:162
+msgid "Send"
+msgstr ""
+
+#: templates/xswphp-support.php:126
+msgid ""
+"Hire us for Customization and Development of WordPress Plugins and Themes."
+msgstr ""
+
+#: templates/xswphp-support.php:170
+msgid "If you like our plugin and support than kindly share your  "
+msgstr ""
+
+#: templates/xswphp-support.php:170
+msgid "feedback"
+msgstr ""
+
+#: templates/xswphp-support.php:170
+msgid "Your feedback is valuable."
+msgstr ""

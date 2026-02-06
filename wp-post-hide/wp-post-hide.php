@@ -4,15 +4,20 @@
  *
  * @link              http://xfinitysoft.com/
  * @since             0.0.1
- * @package WordPress Hide Post
- * Plugin Name: WP Post Hide
+ * @package WP Post Hide
+ * Plugin Name: WP Hide Post — Hide Posts, Pages, Custom Post Types, and Control Products Visibility for WooCommerce
  * Description: Control the visibility of post type items like pages, posts, and custom post types. Hidden in specific parts but other parts still visible.
- * Plugin URI:http://www.xfinitysoft.com/wordpress-post-hide/
- * Version: 2.0.0
+ * Plugin URI:http://www.xfinitysoft.com/wp-post-hide/
+ * Version: 2.0.2
  * Author:Xfinity Soft
  * Author URI:http://www.xfinitysoft.com/
- * Text Domain:xswpph-domain
+ * Text Domain:wp-post-hide
  * Domain Path: /languages
+ * Requires PHP: 7.4
+ * Requires at least: 5.0
+ * Tested up to: 6.9
+ * License: GPLv2 or later
+ * License URI: https://www.gnu.org/licenses/gpl-2.0.html
  */
 
 // Exit if directly access.
@@ -31,7 +36,7 @@ add_action(
 				function () {
 					?>
 			<div class="notice notice-warning is-dismissible">
-					<p><?php esc_html_e( 'WP Post Hide (Free) has been deactivated because WP Post Hide Pro is already active.', 'xswpph-domain' ); ?></p>
+					<p><?php esc_html_e( 'WP Post Hide (Free) has been deactivated because WP Post Hide Pro is already active.', 'wp-post-hide' ); ?></p>
 			</div>
 					<?php
 				}
@@ -42,13 +47,19 @@ add_action(
 );
 
 // Define  XSWPPH_PLUGIN_FILE.
-if ( ! defined( 'XSWPPH_PLUGIN_FILE' ) ) {
-	define( 'XSWPPH_PLUGIN_FILE', __FILE__ );
+if ( ! defined( 'XSWPHP_PLUGIN_FILE' ) ) {
+	define( 'XSWPHP_PLUGIN_FILE', __FILE__ );
 }
-
+// Define  XSWPPH_PLUGIN_FILE.
+if ( ! defined( 'XSWPHP_VERSION' ) ) {
+	define( 'XSWPHP_VERSION', '2.0.1' );
+}
+if ( ! defined( 'XSWPHP_ROOT_URL' ) ) {
+	define( 'XSWPHP_ROOT_URL', plugins_url( '', __FILE__ ) );
+}
 // Includes main class of wphp.
-if ( ! class_exists( 'XSWPPH_Main' ) ) {
-	include_once __DIR__ . '/includes/classes/class-xswpph-main.php';
+if ( ! class_exists( 'XSWPHP_Main' ) ) {
+	include_once __DIR__ . '/includes/classes/class-xswphp-main.php';
 }
 
 /**
@@ -56,11 +67,11 @@ if ( ! class_exists( 'XSWPPH_Main' ) ) {
  *
  * Returns the main instance of XSWPPH_Main to prevent the need to use globals.
  *
- * @return XSWPPH_Main
+ * @return XSWPHP_Main
  */
-function xswpph_main() {
-	return XSWPPH_Main::xswpph_instance();
+function xswphp_main() {
+	return new XSWPHP_Main();
 }
 
 // Global for backwards compatibility.
-$GLOBALS['xs-wp-post-hide'] = xswpph_main();
+$GLOBALS['xs-wp-post-hide'] = xswphp_main();
