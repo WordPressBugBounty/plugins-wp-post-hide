@@ -124,7 +124,7 @@ class XSWPHP_Database {
 	 */
 	public static function is_post_hidden( $post_id, $condition, $fallback = true ) {
 		global $wpdb;
-		$table_name = $wpdb->prefix . 'xswphp_posts_visibility';
+		$table_name = esc_sql( $wpdb->prefix . 'xswphp_posts_visibility' );
 		// phpcs:ignore WordPress.DB
 		$hidden_post = (int) $wpdb->get_var(
 			$wpdb->prepare(

@@ -8,7 +8,7 @@
  * Plugin Name: WP Hide Post — Hide Posts, Pages, Custom Post Types, and Control Products Visibility for WooCommerce
  * Description: Control the visibility of post type items like pages, posts, and custom post types. Hidden in specific parts but other parts still visible.
  * Plugin URI:http://www.xfinitysoft.com/wp-post-hide/
- * Version: 2.0.2
+ * Version: 2.0.3
  * Author:Xfinity Soft
  * Author URI:http://www.xfinitysoft.com/
  * Text Domain:wp-post-hide
@@ -52,7 +52,7 @@ if ( ! defined( 'XSWPHP_PLUGIN_FILE' ) ) {
 }
 // Define  XSWPPH_PLUGIN_FILE.
 if ( ! defined( 'XSWPHP_VERSION' ) ) {
-	define( 'XSWPHP_VERSION', '2.0.1' );
+	define( 'XSWPHP_VERSION', '2.0.3' );
 }
 if ( ! defined( 'XSWPHP_ROOT_URL' ) ) {
 	define( 'XSWPHP_ROOT_URL', plugins_url( '', __FILE__ ) );
@@ -73,5 +73,5 @@ function xswphp_main() {
 	return new XSWPHP_Main();
 }
 
-// Global for backwards compatibility.
-$GLOBALS['xs-wp-post-hide'] = xswphp_main();
+// Global for backwards compatibility (prefixed key for coding standards).
+$GLOBALS['xswphp_wp_post_hide'] = xswphp_main();

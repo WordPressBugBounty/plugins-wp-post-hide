@@ -5,7 +5,7 @@ Tags: hide post, hide page, hide product, content visibility, woocommerce
 Requires PHP: 7.4
 Requires at least: 5.0
 Tested up to: 6.9
-Stable tag: 2.0.2
+Stable tag: 2.0.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -243,6 +243,9 @@ No coding required — just a few clicks to hide posts from the homepage, hide W
 == Screenshots ==
 
 == Changelog ==
+= 2.0.3 -2026-04-06 =
+Fix sanitize of settings
+add support wordpress version 6.9
 = 2.0.2 -2025-12-10 =
 Fix text domain issue.
 Add support wordpress version 6.9
@@ -293,6 +296,7 @@ Fix All bug and issue.
 * 🗄️ Advanced caching reduces server load significantly  
 * 📊 Optimized admin column display for large post counts
 * 🔍 Improved search and filtering performance
+
 
 = 1.1.0 =
 Fix (CSRF) vulnerability.

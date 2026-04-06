@@ -97,8 +97,63 @@ class XSWPHP_Init {
 	 * Register the setting Fields options
 	 **/
 	public function xswphp_register_settings() {
-		register_setting( 'xswphp_options', 'xswphp_post_types' );
-		register_setting( 'xswphp_options', 'xswphp_enable' );
+		register_setting(
+			'xswphp_options',
+			'xswphp_post_types',
+			array(
+				'type'              => 'array',
+				'sanitize_callback' => array( $this, 'xswphp_sanitize_post_types_setting' ),
+			)
+		);
+		register_setting(
+			'xswphp_options',
+			'xswphp_enable',
+			array(
+				'type'              => 'array',
+				'sanitize_callback' => array( $this, 'xswphp_sanitize_enable_setting' ),
+			)
+		);
+	}
+
+	/**
+	 * Sanitize selected post type slugs for plugin options.
+	 *
+	 * @param mixed $value Raw option value.
+	 * @return string[]
+	 */
+	public function xswphp_sanitize_post_types_setting( $value ) {
+		if ( ! is_array( $value ) ) {
+			return array();
+		}
+		$sanitized = array();
+		foreach ( $value as $slug ) {
+			$slug = sanitize_key( (string) $slug );
+			if ( '' !== $slug ) {
+				$sanitized[] = $slug;
+			}
+		}
+		return array_values( array_unique( $sanitized ) );
+	}
+
+	/**
+	 * Sanitize enable flags array for plugin options.
+	 *
+	 * @param mixed $value Raw option value.
+	 * @return array<string, string>
+	 */
+	public function xswphp_sanitize_enable_setting( $value ) {
+		if ( ! is_array( $value ) ) {
+			return array();
+		}
+		$out = array();
+		foreach ( $value as $key => $val ) {
+			$key = sanitize_key( (string) $key );
+			if ( '' === $key ) {
+				continue;
+			}
+			$out[ $key ] = sanitize_text_field( (string) $val );
+		}
+		return $out;
 	}
 
 	/**
